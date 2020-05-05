@@ -1,0 +1,27 @@
+{
+  "name": "MovieHubCrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "daemon": "node ./daemon.js",
+    "start": "node ./index.js",
+    "detail": "node ./index.js -nb",
+    "review": "node ./index.js -nb -nd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "crypto": "^1.0.1",
+    "dateformat": "^3.0.3",
+    "https-proxy-agent": "^5.0.0",
+    "mysql2": "^2.1.0",
+    "promise-request-retry": "^1.0.2",
+    "request": "^2.34.2",
+    "request-promise": "^4.2.5",
+    "user-agents": "^1.0.559"
+  }
+}
